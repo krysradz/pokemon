@@ -1,0 +1,46 @@
+body {
+  background: #C9C4C4;
+}
+
+a {
+  text-decoration: none;
+  color: #22547E;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul.nav, ul.subnav {
+  padding: 0;
+}
+
+ul.nav {
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top;
+  width: 100px;
+  /*border: 1px solid black;
+  background: #FFFFFF;*/
+}
+
+ul.subnav {
+  background: #9DC794;
+  border: 1px solid #8CA487;
+  padding: 3px;
+}
+
+.subnav li {
+  /*border: 1px solid black;
+  background: #9DC794;*/
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
