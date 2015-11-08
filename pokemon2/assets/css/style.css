@@ -1,10 +1,17 @@
 body {
-  background: #C9C4C4;
+  background: #1367A1;
+}
+
+p {
+  color: #000000;
+  font-size: 20px;
 }
 
 a {
   text-decoration: none;
-  color: #22547E;
+  color: #FFCB05;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 25px;
 }
 
 a:hover {
@@ -30,7 +37,7 @@ ul.nav {
 }
 
 ul.subnav {
-  background: #9DC794;
+  background: red;
   border: 1px solid #8CA487;
   padding: 3px;
 }
@@ -54,8 +61,43 @@ ul.subnav {
   margin-bottom: 100px;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity:0.3;
-  filter: alpha(opacity=90);
+  opacity: 0.70;
+  filter: alpha(opacity=50);
   font-family: sans-serif;
   padding: 25px;
+}
+
+.welcome p {
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 40px;
+}
+
+.welcome img {
+  display: inline-block;
+  margin:0 auto;
+}
+
+.class {
+  display: block;
+  padding-bottom: 2%;
+  margin: 0 auto;
+  border: 10px solid #aad28c;
+  border-radius: 5px;
+}
+
+.misty {
+  border: 5px dotted #FFCB05;
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+/*.trainerdescription {
+  float: left;
+  margin: 0 0 10px 10px;
+}*/
+
+.testimonial4 {
+  border: 5px dotted #FFCB05;
+  width: 5%;
+  height: 5%;
 }
