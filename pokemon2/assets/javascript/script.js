@@ -31,3 +31,17 @@ $(document).ready(function() {
   //  setUpHover('.nav li', '.subnav')
 
 });
+
+var myImage= new Array(); 
+myImage[0]="misty.png";       
+myImage[1]="brock.png";
+myImage[2]="testimonial2.png";
+myImage[3]="testimonial3.png"; 
+
+var ImageCnt = 0;
+
+function next(){
+    ImageCnt++;
+    document.getElementById("whiteBox").style.background = 'url(' + myImage[ImageCnt] + ')';
+  }
+
