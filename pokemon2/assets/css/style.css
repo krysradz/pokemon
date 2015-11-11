@@ -37,7 +37,8 @@ ul.nav {
 }
 
 ul.subnav {
-  background: red;
+  /*background: #ffffff;
+  opacity: 0.7;*/
   border: 1px solid #8CA487;
   padding: 3px;
 }
@@ -101,3 +102,27 @@ ul.subnav {
   width: 5%;
   height: 5%;
 }
+
+.brock {
+  border: 5px dotted #FFCB05;
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+.thumbnails img {
+    height: 80px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+  }
+
+  .thumbnails img:hover {
+    border: 4px solid #00ccff;
+    cursor:pointer;
+  }
+
+  .preview img {
+    border: 4px solid #444;
+    padding: 1px;
+    width: 800px;
+  }
