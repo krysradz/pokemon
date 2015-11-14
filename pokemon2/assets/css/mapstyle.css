@@ -4,3 +4,43 @@ path {
   stroke-width: 2;
   fill: #1367A1;
 }
+
+/* roads */
+
+#road-a {
+  stroke: darkcyan;
+}
+
+#road-b {
+  stroke: darkcyan;
+}
+
+#road-c {
+  stroke: darkcyan;
+}
+
+#road-24-25 {
+  stroke: darkcyan;
+}
+
+#road-d-e {
+  stroke: darkcyan;
+}
+
+/* gyms */
+
+#pewter-city {
+  stroke: tomato;
+}
+
+#mt-silver {
+  stroke: tomato;
+}
+
+#bills-house {
+  stroke: tomato;
+}
+
+#cerulean-city {
+  stroke: tomato;
+}
