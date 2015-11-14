@@ -19,7 +19,21 @@ a {
   font-size: 25px;
 }
 
+button {
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none;
+  color: #FFCB05;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 25px;
+  border: 1px;
+  border-color: black;
+}
+
 a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
   text-decoration: underline;
 }
 
