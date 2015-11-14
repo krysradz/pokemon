@@ -1,119 +1,80 @@
-
-path {
+body {
+  background-color: teal;
+}
+.st1 {
   stroke: black;
   stroke-width: 2;
   fill: #1367A1;
 }
-
-/* roads */
-
-#road-a {
-  stroke: darkcyan;
-}
-
-#road-b {
-  stroke: darkcyan;
-}
-
-#road-c {
-  stroke: darkcyan;
-}
-
-#road-24-25 {
-  stroke: darkcyan;
-}
-
-#road-d-e {
-  stroke: darkcyan;
-}
-
-#road-25 {
-  stroke: darkcyan;
-}
-
-#path4354 {
-  stroke: purple;
-}
-
-#path4358 {
-  stroke: purple;
-}
-
-#path4360 {
-  stroke: purple;
-}
-
-#path4362 {
-  stroke: purple;
-}
-
-#path4372 {
-  stroke: purple;
-}
-
-#path4376  {
-  stroke: purple;
-}
-
-#path4380 {
-  stroke: purple;
-}
-
-#path4364 {
-  stroke: purple;
-}
-
-
 /* gyms */
-
-#indigo-plateau {
-  stroke: tomato;
+#indigo-plateau:hover {
+  fill: yellow;
+}
+#pewter-city:hover {
+  fill: yellow;
+}
+#mt-silver:hover {
+  fill: yellow;
+}
+#bills-house:hover {
+  fill: yellow;
+}
+#cerulean-city:hover {
+  fill: yellow;
+}
+#lavender-town:hover {
+  fill: yellow;
+}
+#saffron-city:hover {
+  fill: yellow;
+}
+#celadon-city:hover {
+  fill: yellow;
+}
+#vermillion-city:hover {
+  fill: yellow;
+}
+#fushcia-city:hover {
+  fill: yellow;
+}
+#viridian-city:hover {
+  fill: yellow;
+}
+#pallet-town:hover {
+  fill: yellow;
+}
+#cinnibar-island:hover {
+  fill: yellow;
 }
 
-#pewter-city {
-  stroke: tomato;
+/* road id's - keeping here to style roads later, if desired */
+/*
+#road-a {
 }
-
-#mt-silver {
-  stroke: tomato;
+#road-b {
 }
-
-#bills-house {
-  stroke: tomato;
+#road-c {
 }
-
-#cerulean-city {
-  stroke: tomato;
+#road-24-25 {
 }
-
-#lavender-town {
-  stroke: tomato;
+#road-d-e {
 }
-
-#saffron-city {
-  stroke: tomato;
+#road-25 {
 }
-
-#celadon-city {
-  stroke: tomato;
+#path4354 {
 }
-
-#vermillion-city {
-  stroke: tomato;
+#path4358 {
 }
-
-#fushcia-city  {
-  stroke: tomato;
+#path4360 {
 }
-
-#viridian-city {
-  stroke: tomato;
+#path4362 {
 }
-
-#pallet-town {
-  stroke: tomato;
+#path4372 {
 }
-
-#cinnibar-island {
-  stroke: tomato;
+#path4376  {
 }
+#path4380 {
+}
+#path4364 {
+}
+*/

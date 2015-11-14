@@ -15,7 +15,28 @@
           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
           xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="8 37.1 460 298" style="enable-background:new 8 37.1 460 298;" xml:space="preserve">
-        <!-- stroke should remaing the same regardless of hoverstate; hover will have to effect only fill as a work around to layering of each shape -->
+        <!-- notes: stroke should remain the same regardless of hoverstate;
+        hover will have to effect only fill as a work around to z-axis layering of each shape
+        although moving stroke style to class id from element <path> styling as well as chunking
+        road and gym html may might now be causing the specificty prop in css to 'win' at making the
+        gyms act as a top layer on the css styling thus being "on top" of the z-axis -->
+        <!-- roads -->
+        <path id="road-a" class="st1" d="M36.4,251.7l86.2,0.4V166h59.2l-0.2-8.5h-58.9l-0.2-72.3l-8.4,0.2l0.1,72l-27.6-0.1l0.2,8.7H114
+        	l-0.2,77.8l-77.4,0V251.7z"/>
+        <path id="road-b" class="st1" d="M191.3,122h9.7v27.5h-9.1L191.3,122z"/>
+        <path id="road-c" class="st1" d="M209.9,106.6l-0.2,9l89.8,0l-0.2-8.8L209.9,106.6z"/>
+        <path id="road-24-25" class="st1" d="M308.9,97.8l9.5-0.1l0.1-21.2l23.6-0.1l0.1-8.9L309,67.7L308.9,97.8z"/>
+        <path id="road-d-e" class="st1" d="M345.4,107.3l80.2-0.2l0.6,29.1l-9.1,0l-0.2-21.1h-71.2L345.4,107.3z"/>
+        <path id="road-25" class="st1" d="M308.6,123.8l9.4-0.1l0.1,15.7l-9.4,0.2L308.6,123.8z"/>
+        <path id="path4354" class="st1" d="M287.8,161.6l-0.1,8.3l13.3-0.1l0-8.3L287.8,161.6z"/>
+        <path id="path4358" class="st1" d="M242.3,169.5l0.2-7.9h-14l0.4,110.8l70.4,0.4V264l-61.7,0l-0.4-94.5L242.3,169.5z"/>
+        <path id="path4360" class="st1" d="M343.5,170l63.6,0l-0.1-8.6h-63.1L343.5,170z"/>
+        <path id="path4362" class="st1" d="M308.9,179.1l9.2,0.2v10.1l-9.1,0.1L308.9,179.1z"/>
+        <path id="path4372" class="st1" d="M192.1,193.4l8.4,0l0.1,40.4H192L192.1,193.4z"/>
+        <path id="path4376" class="st1" d="M191.8,291.6h9.1l-0.3-32.1h-9.1L191.8,291.6z"/>
+        <path id="path4380" class="st1" d="M209.5,298.6v9.1h109v-27.3l-9.6,0.1l-0.1,18.4L209.5,298.6z"/>
+        <path id="path4364" class="st1" d="M345.4,207.1h71.3v22.3l-36.6,0.3v34l-35,0.3l0.3,8.7l44-0.3V238l36.4-0.1l-0.3-58.1h-9v18.9
+          c-10.3,0-68.2-0.1-71.1,0V207.1z"/>
         <!-- gyms -->
         <path id="mt-silver" class="st1"
           d="M67.5,148.9l13.6,0.1c4.4,0,5.3,3.2,5.3,5.8v14.1c0,2.6-1,5.8-5.3,5.9l-14.1,0.6 c-2.6,0.1-5.8-2.7-5.9-5.3l-0.6-14.7c-0.1-3.2,2.5-6.5,5.7-6.5L67.5,148.9z" />
@@ -26,8 +47,7 @@
         <path id="cerulean-city" class="st1" d="M303.8,98l33.1-0.2c7.9-0.5,8.3,2.7,8.3,5.4v15.7c0,3.4-1.5,4.9-8.3,4.9h-29.4
           c-8,0-7.7-4.4-7.7-7.1l-0.3-12.6C299.5,101.5,300.6,98,303.8,98L303.8,98z"/>
         <path id="lavender-town" class="st1" d="M407.2,145.8c-0.1-6.8,2.5-9.2,5.5-9.3c3-0.1,13.1-0.3,16.3-0.3c3.2,0.1,6.3,1.5,6.3,6.3
-        	c0,4.8-0.1,20.9,0,29.3c0.1,8.4-5.7,7.9-5.7,7.9c-2.7,0.3-12.3,0-16,0c-3.7,0-6.2-1.6-6.3-6.7C407.1,167.8,407.3,152.6,407.2,145.8z
-        	"/>
+        	c0,4.8-0.1,20.9,0,29.3c0.1,8.4-5.7,7.9-5.7,7.9c-2.7,0.3-12.3,0-16,0c-3.7,0-6.2-1.6-6.3-6.7C407.1,167.8,407.3,152.6,407.2,145.8z"/>
         <path id="saffron-city" class="st1" d="M306.7,139.7l32,0.3c0,0,5.3,0.3,5.2,5.9s-0.3,19.9-0.4,25.6c-0.1,5.7-1.5,7.6-7.8,7.6
         	c-6.3,0-22.1,0-27.9,0c-5.9,0-6.4-5.1-6.5-8.4c-0.1-3.4,0.1-15.1,0-21.8C301.2,142.1,303,139.7,306.7,139.7z"/>
         <path id="celadon-city" class="st1" d="M279.8,152.8c3.2,0,8,1.3,8,4.6l0,16.6c0,2.7-4,4.8-6.7,4.7l-32.2-0.2c-4.2,0-6.2-2-6.3-4.6
@@ -46,23 +66,6 @@
           s-5.9,6-8.7,6s-5.1,0.1-10.4,0c-5.3-0.1-7.9-4.6-7.9-7.7c0.1-3.2,0.2-7,0-10.3S184.8,291.5,189.3,291.7L189.3,291.7z"/>
         <path id="indigo-plateau" class="st1" d="M123.6,85.2h-10c-6.5,0-7.9-0.2-7.9-6.7v-11c0-6.5,2.4-7.6,8.9-7.6h8c6.5,0,8.9,0.9,8.9,7.4v10.7
         	C131.5,84.5,130.1,85.2,123.6,85.2z"/>
-        <!-- roads -->
-        <path id="road-a" class="st1" d="M36.4,251.7l86.2,0.4V166h59.2l-0.2-8.5h-58.9l-0.2-72.3l-8.4,0.2l0.1,72l-27.6-0.1l0.2,8.7H114
-        	l-0.2,77.8l-77.4,0V251.7z"/>
-        <path id="road-b" class="st1" d="M191.3,122h9.7v27.5h-9.1L191.3,122z"/>
-        <path id="road-c" class="st1" d="M209.9,106.6l-0.2,9l89.8,0l-0.2-8.8L209.9,106.6z"/>
-        <path id="road-24-25" class="st1" d="M308.9,97.8l9.5-0.1l0.1-21.2l23.6-0.1l0.1-8.9L309,67.7L308.9,97.8z"/>
-        <path id="road-d-e" class="st1" d="M345.4,107.3l80.2-0.2l0.6,29.1l-9.1,0l-0.2-21.1h-71.2L345.4,107.3z"/>
-        <path id="road-25" class="st1" d="M308.6,123.8l9.4-0.1l0.1,15.7l-9.4,0.2L308.6,123.8z"/>
-        <path id="path4354" class="st1" d="M287.8,161.6l-0.1,8.3l13.3-0.1l0-8.3L287.8,161.6z"/>
-        <path id="path4358" class="st1" d="M242.3,169.5l0.2-7.9h-14l0.4,110.8l70.4,0.4V264l-61.7,0l-0.4-94.5L242.3,169.5z"/>
-        <path id="path4360" class="st1" d="M343.5,170l63.6,0l-0.1-8.6h-63.1L343.5,170z"/>
-        <path id="path4362" class="st1" d="M308.9,179.1l9.2,0.2v10.1l-9.1,0.1L308.9,179.1z"/>
-        <path id="path4372" class="st1" d="M192.1,193.4l8.4,0l0.1,40.4H192L192.1,193.4z"/>
-        <path id="path4376" class="st1" d="M191.8,291.6h9.1l-0.3-32.1h-9.1L191.8,291.6z"/>
-        <path id="path4380" class="st1" d="M209.5,298.6v9.1h109v-27.3l-9.6,0.1l-0.1,18.4L209.5,298.6z"/>
-        <path id="path4364" class="st1" d="M345.4,207.1h71.3v22.3l-36.6,0.3v34l-35,0.3l0.3,8.7l44-0.3V238l36.4-0.1l-0.3-58.1h-9v18.9
-          c-10.3,0-68.2-0.1-71.1,0V207.1z"/>
       </svg>
     </div>
   </body>
