@@ -8,39 +8,42 @@
     <title>Pok&eacute;mon Catching School</title>
   </head>
   <body>
-    <div class="banner">
-      <img src= "assets/images/banner2.jpg" alt = "Banner with Pokemon">
+    <div class="wrapper-banner-nav">
+      <!-- Banner Image -->
+      <div class="banner">
+        <img class= "banner-image" src= "assets/images/banner2.jpg" alt = "Banner with Pokemon">
+      </div>
+      <!-- Nav Menus -->
+      <ul class="nav">
+        <li>
+          <button><a href="index.html">Home</button></a>
+        </li>
+        <li>
+          <button>Trainers</button>
+          <ul class="subnav hidden">
+            <li><a href="misty.html">Misty</a></li>
+            <li><a href="brock.html">Brock</a></li>
+          </ul>
+        </li>
+        <li>
+          <button>Regions</button>
+          <ul class="subnav hidden">
+            <li><a href="map.html">Kanto Region</a></li>
+            <li><a href="#">Coming Soon</a></li>
+            <li><a href="#">Coming Soon</a></li>
+          </ul>
+        </li>
+        <li>
+          <button>Pok&eacute;mon</button>
+          <ul class="subnav hidden">
+            <li><a href="wybc.html">Pikachu</a></li>
+            <li><a href="#">Magikarp</a></li>
+            <li><a href="#">Bulbasaur</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
-
-    <ul class="nav">
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a>Training</a>
-        <ul class="subnav hidden">
-          <li><a href="misty.html">Misty</a></li>
-          <li><a href="brock.html">Brock</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">Gym Locations</a>
-        <ul class="subnav hidden">
-          <li><a href="#">Sub 3 - 1</a></li>
-          <li><a href="#">Sub 3 - 2</a></li>
-          <li><a href="#">Sub 3 - 3</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="wybc.html">What You'll Be Catching!</a>
-        <ul class="subnav hidden">
-          <li><a href="#">Sub 3 - 1</a></li>
-          <li><a href="#">Sub 3 - 2</a></li>
-          <li><a href="#">Sub 3 - 3</a></li>
-        </ul>
-      </li>
-    </ul>
-
+    <!-- Content -->
     <div class="wrapper">
       <div class="trainerdescription">
         <img src= "assets/images/brock.png" class="brock" alt="Picture of Brock"><p><u>Brock</u><br>"Twinleaf Champion"<br><br>Winner of the Twinleaf Battle Tournament for three years in a row, Brock shows his battle know-how by defeatingn opponents from all over Kanto. At one point, Brock was a Gym Leader, which lends to him being adept at strategizing during battle. Brock is the trainer for you if you want a more in-depth look at the history of each Pok&eacute;mon</p>
