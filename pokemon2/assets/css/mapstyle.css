@@ -27,6 +27,43 @@ path {
   stroke: darkcyan;
 }
 
+#road-25 {
+  stroke: darkcyan;
+}
+
+#path4354 {
+  stroke: purple;
+}
+
+#path4358 {
+  stroke: purple;
+}
+
+#path4360 {
+  stroke: purple;
+}
+
+#path4362 {
+  stroke: purple;
+}
+
+#path4372 {
+  stroke: purple;
+}
+
+#path4376  {
+  stroke: purple;
+}
+
+#path4380 {
+  stroke: purple;
+}
+
+#path4364 {
+  stroke: purple;
+}
+
+
 /* gyms */
 
 #pewter-city {
@@ -42,5 +79,29 @@ path {
 }
 
 #cerulean-city {
+  stroke: tomato;
+}
+
+#lavender-town {
+  stroke: tomato;
+}
+
+#saffron-city {
+  stroke: tomato;
+}
+
+#celadon-city {
+  stroke: tomato;
+}
+
+#vermillion-city {
+  stroke: tomato;
+}
+
+#fushcia-city  {
+  stroke: tomato;
+}
+
+#viridian-city {
   stroke: tomato;
 }
