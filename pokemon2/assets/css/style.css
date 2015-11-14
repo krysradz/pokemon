@@ -1,5 +1,10 @@
 body {
+  width: 98%;
   background: #1367A1;
+}
+
+.banner-image {
+  width: 100%;
 }
 
 p {
@@ -53,19 +58,25 @@ ul.subnav {
   display: none;
 }
 
+.wrapper-banner-nav {
+  width: 98%;
+  margin: auto;
+}
+
 .wrapper {
-  width: 80%;
+  width: 98%;
+  margin: auto;
   /*margin: 30px 50px;*/
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 250px;
-  margin-bottom: 100px;
-  background-color: #ffffff;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 250px;
+  margin-bottom: 100px; */
+  background-color: rgba(255,255,255,.7);
   border: 1px solid black;
-  opacity: 0.70;
-  filter: alpha(opacity=50);
+  /* opacity: 0.70; */
+  /* filter: alpha(opacity=50); */
   font-family: sans-serif;
-  padding: 25px;
+  /* padding: 25px; */
 }
 
 .welcome p {
@@ -90,6 +101,13 @@ ul.subnav {
   border: 5px dotted #FFCB05;
   float: left;
   margin: 0 0 10px 10px;
+}
+
+.pokeball-icon {
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
 }
 
 /*.trainerdescription {
