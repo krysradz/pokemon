@@ -66,6 +66,10 @@ path {
 
 /* gyms */
 
+#indigo-plateau {
+  stroke: tomato;
+}
+
 #pewter-city {
   stroke: tomato;
 }
@@ -103,5 +107,13 @@ path {
 }
 
 #viridian-city {
+  stroke: tomato;
+}
+
+#pallet-town {
+  stroke: tomato;
+}
+
+#cinnibar-island {
   stroke: tomato;
 }
