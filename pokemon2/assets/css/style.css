@@ -71,7 +71,7 @@ ul.subnav {
   margin-right: auto; */
   /* margin-top: 250px;
   margin-bottom: 100px; */
-  background-color: rgba(255,255,255,.7);
+  background-color: rgba(255,255,255,.7); /* transparancey on bkgrnd d/t 'a' part of color, the decimal value means 70% */
   border: 1px solid black;
   /* opacity: 0.70; */
   /* filter: alpha(opacity=50); */
@@ -79,14 +79,17 @@ ul.subnav {
   /* padding: 25px; */
 }
 
-.welcome p {
-  font-family: 'Stint Ultra Condensed', cursive;
-  font-size: 40px;
+.welcome {
+  width: 98%;
+  margin: auto;
+  font-family: 'Stint Ultra Condensed';
+  font-size: 2em;
+  text-align: center;
+  font-style: italic;
 }
 
 .welcome img {
   display: inline-block;
-  margin:0 auto;
 }
 
 .class {
@@ -103,11 +106,21 @@ ul.subnav {
   margin: 0 0 10px 10px;
 }
 
+.package {
+  width: 92%;
+  margin: auto;
+}
+
 .pokeball-icon {
   width: 30px;
   height: 30px;
   padding-top: 10px;
   padding-right: 10px;
+}
+
+.disclaimer {
+  font-size: .8em;
+  text-align: right;
 }
 
 /*.trainerdescription {
@@ -136,12 +149,12 @@ ul.subnav {
     margin: 0 10px 10px 0;
   }
 
-  .thumbnails img:hover {
+.thumbnails img:hover {
     border: 4px solid #00ccff;
     cursor:pointer;
   }
 
-  .preview img {
+.preview img {
     border: 4px solid #444;
     padding: 1px;
     width: 800px;
