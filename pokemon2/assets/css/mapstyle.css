@@ -1,7 +1,14 @@
+/* gyms and towns */
 .st1 {
   stroke: black;
   stroke-width: 2;
-  fill: #sandybrown;
+  fill: midnightblue;
+}
+/* roads */
+.st2 {
+  stroke: black;
+  stroke-width: 2;
+  fill: palegoldenrod;
 }
 /* gyms */
 #indigo-plateau:hover {
