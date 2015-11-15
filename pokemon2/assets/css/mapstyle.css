@@ -1,13 +1,17 @@
+.map {
+  height: 100px;
+}
+
 /* gyms and towns */
 .st1 {
   stroke: black;
-  stroke-width: 2;
+  stroke-width: 1.6px;
   fill: midnightblue;
 }
 /* roads */
 .st2 {
   stroke: black;
-  stroke-width: 2;
+  stroke-width: 1.6px;
   fill: palegoldenrod;
 }
 /* gyms */

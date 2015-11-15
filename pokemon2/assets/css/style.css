@@ -37,11 +37,14 @@ button:hover {
   text-decoration: underline;
 }
 
-ul.nav, ul.subnav {
+ul.subnav {
+  background-color: #1367A1;
+  position: absolute;
   padding: 0;
 }
 
 ul.nav {
+  padding: 0;
   list-style: none;
   text-align: center;
 }
